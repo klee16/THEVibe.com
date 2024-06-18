@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title> MainStream </title>
+ <link rel="icon" href="rams.ico" />
+ <style>
+ body {
+  background-color: Grey;
+}
+        .header {
+                background-color: Black;
+                padding: 15px;
+                text-align: center;
+            }
+			
+			/* The navbar container */
+.topnav {
+  overflow: hidden;
+  background-color: black;
+   
+}
+
+/* Navbar links */
+.topnav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Links - change color on hover */
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Create three equal columns that float next to each other */
+.column {
+  float: left;
+  width: 33.33%;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive layout - makes the three columns stack on top of each other instead of next to each other on smaller screens (600px wide or less) */
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+  }
+}
+
+.footer {
+  background-color: black;
+  text-align: center;
+  padding: 10px;
+  color: grey;
+}
+ </style>
+<body>
+<div class = "header">
+            <h2 style = "color:purple;">
+                <img src="vibe.jpg" alt="logo">
+				
+				<center style="font-size:200%;">
+				MainStream
+         <p><img src="apple.png" alt="Girl in a jacket" width="100" height="100"><img src="spotify.png" alt="Girl in a jacket" width="100" height="100"></p>
+        </center>
+				 </h2>
+				 
+				 </div>
+				<br>
+				
+				 
+  
+		<div class="topnav">
+  <a href="CST3605.html">Home</a>
+  <a href="Underground.html">Underground</a>
+  <a href="MusicVideos.html">Music Videos</a>
+  <a href="LivePerformances.html">Live Performances</a>
+  <a href="ComingSoon.html">Coming Soon</a>
+   <a href="PopCulture.html">PopCulture</a>
+ <a href="Group_Chat.php">Discussion Board</a>
+   <a href="Team.html">Join the Team!</a>
+</div>
+
+ <img src="apple.png" alt="Girl in a jacket" width="100" height="100">
+<div class="row">
+  <div class="column">
+    <h2>Featured Genre: HipHop </h2>
+     <p><iframe allow="autoplay *; encrypted-media *;" frameborder="0" height="450" style="width:90%;max-width:660px;overflow:hidden;background:transparent;" sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-storage-access-by-user-activation allow-top-navigation-by-user-activation" src="https://embed.music.apple.com/us/album/big-grim-reaper-the-return/1611413901"></iframe></p>
+	 <br>
+	<p><iframe allow="autoplay *; encrypted-media *;" frameborder="0" height="450" style="width:90%;max-width:660px;overflow:hidden;background:transparent;" sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-storage-access-by-user-activation allow-top-navigation-by-user-activation" src="https://embed.music.apple.com/us/album/back-for-everything/1608934589"></iframe></p>
+  </div>
+  
+  <div class="column">
+
+    <h2>Featured Genre: R&B </h2>
+	<p><iframe allow="autoplay *; encrypted-media *;" frameborder="0" height="450" style="width:90%;max-width:660px;overflow:hidden;background:transparent;" sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-storage-access-by-user-activation allow-top-navigation-by-user-activation" src="https://embed.music.apple.com/us/playlist/neo-soul-essentials/pl.01b52f2c73494c9a9e05c8aa6682e6f2"></iframe></p>
+	<br>
+<p><iframe allow="autoplay *; encrypted-media *;" frameborder="0" height="450" style="width:90%;max-width:660px;overflow:hidden;background:transparent;" sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-storage-access-by-user-activation allow-top-navigation-by-user-activation" src="https://embed.music.apple.com/us/playlist/r-b-now/pl.b7ae3e0a28e84c5c96c4284b6a6c70af"></iframe></p>
+    
+  </div>
+  
+  <div class="column">
+    <h2>Featured Genre: Old School</h2>
+	    <p><iframe allow="autoplay *; encrypted-media *;" frameborder="0" height="450" style="width:90%;max-width:660px;overflow:hidden;background:transparent;" sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-storage-access-by-user-activation allow-top-navigation-by-user-activation" src="https://embed.music.apple.com/us/playlist/2000s-hip-hop-r-b-essentials/pl.cfc176ebe118487e9e3b192eae75d0c1"></iframe></iframe></p>
+    <br>
+	<p><iframe allow="autoplay *; encrypted-media *;" frameborder="0" height="450" style="width:90%;max-width:660px;overflow:hidden;background:transparent;" sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-storage-access-by-user-activation allow-top-navigation-by-user-activation" src="https://embed.music.apple.com/us/playlist/michael-jackson-essentials/pl.f475b81eaf7546ffb8ffd20889f37032"></iframe></p>
+  </div>
+</div>
+
+
+
+
+
+<div class="footer">
+  <p>Vibe.com LLC</p>
+</div>
+
+        </body>
+</html>

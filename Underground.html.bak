@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title> Underground </title>
+ <link rel="icon" href="rams.ico" />
+ <style>
+ body {
+  background-color: Grey;
+}
+        .header {
+                background-color: Black;
+                padding: 15px;
+                text-align: center;
+            }
+			
+			/* The navbar container */
+.topnav {
+  overflow: hidden;
+  background-color: black;
+   
+}
+
+/* Navbar links */
+.topnav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Links - change color on hover */
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Create three equal columns that float next to each other */
+.column {
+  float: left;
+  width: 33.33%;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive layout - makes the three columns stack on top of each other instead of next to each other on smaller screens (600px wide or less) */
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+  }
+}
+
+.footer {
+  background-color: black;
+  text-align: center;
+  padding: 10px;
+  color: grey;
+}
+ </style>
+<body>
+
+<div class = "header">
+            <h2 style = "color:purple;">
+                <img src="vibe.jpg" alt="logo">
+				
+				<center style="font-size:200%;">
+				Underground
+         <p><img src="spin.jpg" alt="Girl in a jacket" width="100" height="100"></p>
+        </center>
+				 </h2>
+				 
+				 </div>
+				<br>
+				
+				 
+  
+		<div class="topnav">
+  <a href="CST3605.html">Home</a>
+  <a href="MainStream.html">Main Stream</a>
+  <a href="MusicVideos.html">Music Videos</a>
+  <a href="LivePerformances.html">Live Performances</a>
+  <a href="ComingSoon.html">Coming Soon</a>
+   <a href="PopCulture.html">PopCulture</a>
+<a href="Group_Chat.php">Discussion Board</a>
+     <a href="Team.html">Join the Team!</a>
+</div>
+
+<div class="row">
+  <div class="column">
+  <h2>Featured Compilations</h2>
+  <p><iframe width="90%" height="450px" style="border: 0" src="https://spinrilla.com/mixtapes/new-carolina-djs-no-capalina-5/embed" allowtransparency="true"></iframe></p>
+  <br>
+  <p><iframe width="90%" height="450px" style="border: 0" src="https://spinrilla.com/mixtapes/dj-mad-lurk-this-weeks-certified-street-bangers-vol-251/embed" allowtransparency="true"></iframe></p>
+   </div>
+   
+   <div class="column">
+    <h2>Mixtape Legends</h2>
+	<p><iframe width="90%" height="450px" style="border: 0" src="https://spinrilla.com/mixtapes/chief-keef-crashing-computer/embed" allowtransparency="true"></iframe></p>
+	<br>
+	<p><iframe width="90%" height="450px" style="border: 0" src="https://spinrilla.com/mixtapes/lil-uzi-vert-gucci-mane-1017-vs-the-world/embed" allowtransparency="true"></iframe></p>
+	</div>
+   </div>
+   
+   
+
+<div class="footer">
+  <p>Vibe.com LLC</p>
+</div>
+        </body>
+</html>
