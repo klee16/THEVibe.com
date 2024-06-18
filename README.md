@@ -1,4 +1,4 @@
-#Vibe.com
+# Vibe.com
 
 Vibe.com is a project inteneded to be the prototype for a Multi Media Website based around Music
 
